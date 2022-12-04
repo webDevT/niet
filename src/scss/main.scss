@@ -1,0 +1,31 @@
+@import "variables";
+
+//start global style
+body {
+    font-family: $main-font;
+    font-size: 0.990vw;
+    min-height: 2000px;
+    
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+.container-fluid {
+    width: 75vw;
+    padding-left: 0;
+    padding-right: 0;
+}
+//end global style
+
+
+
+
+@media only screen and (max-width : 768px) { 
+    .container-fluid {
+        width: 88vw;
+    }
+    body {
+        font-size: 4.267vw;
+    }
+}
