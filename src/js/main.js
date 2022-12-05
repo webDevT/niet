@@ -6,6 +6,8 @@ $(function(){
     })
 
 
+
+
 });
 
 if($(window).width() < 700) {
@@ -17,4 +19,18 @@ if($(window).width() < 700) {
 
     });
 }
+
+$('.slider').slick({
+    dots: true,
+    arrows: false,
+});
+
+$('.slider-red').slick({
+    dots: true,
+    arrows: false,
+});
+$('.slider-lines').slick({
+    dots: true,
+    arrows: false,
+});
 

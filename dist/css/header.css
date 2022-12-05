@@ -1,0 +1,210 @@
+.header {
+  padding-top: 1.667vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 2.292vw;
+}
+
+.menu__link {
+  color: #000;
+  font-weight: 700;
+  font-size: 0.938vw;
+  z-index: 999;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu__link:hover {
+  color: #000;
+}
+
+.menu__item {
+  padding-right: 2vw;
+  padding-left: 2vw;
+  padding-bottom: 1.302vw;
+  z-index: 999;
+}
+
+.logo {
+  -webkit-transform: translateX(-8.646vw);
+      -ms-transform: translateX(-8.646vw);
+          transform: translateX(-8.646vw);
+  position: relative;
+  z-index: 999;
+}
+
+.logo img {
+  width: 11.771vw;
+}
+
+.menu__item--sub {
+  position: relative;
+}
+
+.menu .sub-menu {
+  position: absolute;
+  top: 100%;
+  left: 2vw;
+  background: #DE4C4C;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 14.375vw;
+  padding-top: 0.885vw;
+  padding-left: 1.875vw;
+  padding-bottom: 1vw;
+  display: none;
+  z-index: 999;
+}
+
+.sub-menu__link {
+  color: #fff;
+  font-size: 0.938vw;
+  color: #fff;
+  font-weight: 700;
+}
+
+.sub-menu__link:hover {
+  color: #fff;
+}
+
+.sub-menu__item {
+  margin-bottom: 1.302vw;
+}
+
+.menu__item--sub:hover .sub-menu {
+  display: block;
+  z-index: 999;
+}
+
+.down {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .menu {
+    display: none;
+    position: absolute;
+    top: 33vw;
+    left: 0;
+    width: 100vw;
+    background: #DE4C4C;
+    padding-top: 5vw;
+    z-index: 999;
+  }
+  .menu ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 11vw;
+    padding-right: 11vw;
+  }
+  .menu__item {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 6vw;
+  }
+  .menu__link {
+    font-size: 4.267vw;
+    color: #fff;
+    cursor: pointer;
+  }
+  .menu__link:hover {
+    color: #fff;
+  }
+  .logo {
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+  }
+  .logo img {
+    width: 33vw;
+  }
+  .menu-btn {
+    cursor: pointer;
+    position: relative;
+    z-index: 999;
+  }
+  .menu-row {
+    width: 8vw;
+    height: 1vw;
+    background: #DE4C4C;
+    margin-bottom: 1.5vw;
+  }
+  .menu-row:last-child {
+    margin-bottom: 0;
+  }
+  .header .container-fluid {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu .sub-menu {
+    position: static;
+    padding-left: 5vw;
+    padding-right: 0;
+    padding-top: 6vw;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .menu .sub-menu .sub-menu__link {
+    font-size: 4.267vw;
+  }
+  .menu .sub-menu .sub-menu__item {
+    margin-bottom: 6vw;
+  }
+  .menu .sub-menu .sub-menu__item:last-child {
+    margin-bottom: 0;
+  }
+  .menu__item--sub:hover .sub-menu {
+    display: none;
+  }
+  .down {
+    width: 7vw;
+    display: block;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .menu__item--sub .menu__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu__item--sub.active .down {
+    -webkit-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+  }
+}

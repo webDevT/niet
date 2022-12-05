@@ -34,6 +34,7 @@
   font-size: 0.938vw;
   z-index: 999;
   position: relative;
+  cursor: pointer;
 }
 
 .menu__link:hover {
@@ -44,6 +45,7 @@
   padding-right: 2vw;
   padding-left: 2vw;
   padding-bottom: 1.302vw;
+  z-index: 999;
 }
 
 .logo {
@@ -76,6 +78,7 @@
   padding-left: 1.875vw;
   padding-bottom: 1vw;
   display: none;
+  z-index: 999;
 }
 
 .sub-menu__link {
@@ -95,6 +98,7 @@
 
 .menu__item--sub:hover .sub-menu {
   display: block;
+  z-index: 999;
 }
 
 .down {
@@ -105,11 +109,12 @@
   .menu {
     display: none;
     position: absolute;
-    top: 35vw;
+    top: 33vw;
     left: 0;
     width: 100vw;
     background: #DE4C4C;
     padding-top: 5vw;
+    z-index: 999;
   }
   .menu ul {
     -webkit-box-orient: vertical;
@@ -127,6 +132,7 @@
   .menu__link {
     font-size: 4.267vw;
     color: #fff;
+    cursor: pointer;
   }
   .menu__link:hover {
     color: #fff;
