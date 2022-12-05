@@ -1,0 +1,29 @@
+.facts {
+  background: #DE4C4C;
+  color: #fff;
+  padding-top: 13.906vw;
+  padding-bottom: 7vw;
+}
+
+.facts .h2 {
+  margin-bottom: 7.240vw;
+  text-align: center;
+}
+
+.facts .item {
+  width: 100%;
+  height: auto;
+  padding-top: 5.885vw;
+  padding-bottom: 5.885vw;
+}
+
+.facts .slider-slub {
+  color: #000;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .facts {
+    padding-top: 41vw;
+  }
+}

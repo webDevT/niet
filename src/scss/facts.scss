@@ -1,0 +1,28 @@
+@import "variables";
+
+.facts {
+    background: $main-color;
+    color: #fff;
+    padding-top: 13.906vw;
+    padding-bottom: 7vw;
+    .h2 {
+        margin-bottom: 7.240vw;
+        text-align: center;
+    }
+    .item {
+        width: 100%;
+        height: auto;
+        padding-top: 5.885vw;
+        padding-bottom: 5.885vw;
+    }
+    .slider-slub {
+        color: #000;
+        text-align: center;
+
+    }
+}
+@media only screen and (max-width : 768px) {  
+    .facts {
+        padding-top: 41vw;
+    }
+}

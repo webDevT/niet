@@ -37,6 +37,11 @@ a:hover {
   overflow: hidden;
 }
 
+.text-image--main {
+  padding-top: 19.635vw;
+  padding-bottom: 6vw;
+}
+
 .text-image--black {
   background: #000;
   padding-bottom: 10vw;
@@ -313,6 +318,50 @@ a:hover {
   color: #fff;
 }
 
+.slider-sub-title {
+  font-size: 1.198vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.slider-slub {
+  font-size: 2.708vw;
+  font-weight: 400;
+  font-family: "Alfa Slab One", sans-serif;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-section-title {
+  color: #fff;
+}
+
+.item-section-title {
+  font-size: 4.688vw;
+  font-family: 'Product', sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 3vw;
+  padding-left: 1vw;
+}
+
+.two-col-title {
+  font-size: 2.708vw;
+  font-family: "Alfa Slab One", sans-serif;
+  font-weight: 400;
+  margin-bottom: 1.667vw;
+}
+
+.two-cols {
+  padding-top: 5.729vw;
+  padding-bottom: 5.729vw;
+}
+
+.two-cols p {
+  width: 31.823vw;
+}
+
 @media only screen and (max-width: 768px) {
   .container-fluid {
     width: 88vw;
@@ -422,5 +471,26 @@ a:hover {
   }
   .slider-section--red-lines {
     padding-bottom: 0.1vw;
+  }
+  .text-image--main {
+    padding-top: 46vw;
+  }
+  .item-section-title {
+    font-size: 8vw;
+    margin-bottom: 8vw;
+  }
+  .two-cols {
+    padding-top: 15vw;
+    padding-bottom: 15vw;
+  }
+  .two-cols p {
+    width: 100%;
+  }
+  .two-col-title {
+    font-size: 7vw;
+    margin-bottom: 5vw;
+  }
+  .slider-slub {
+    font-size: 4.7vw;
   }
 }

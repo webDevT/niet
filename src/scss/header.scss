@@ -13,6 +13,14 @@
         justify-content: space-between;
     }
 }
+.header--white {
+    .menu__link {
+        color: #fff;
+    }
+    .logo {
+        transform: translateX(0);
+    }
+}
 .menu {
     ul {
         padding: 0;
@@ -180,6 +188,11 @@
     .menu__item--sub.active {
         .down {
             transform: rotate(-180deg);
+        }
+    }
+    .header--white {
+        .menu-row {
+            background: #fff;
         }
     }
 

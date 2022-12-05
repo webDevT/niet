@@ -15,6 +15,16 @@
           justify-content: space-between;
 }
 
+.header--white .menu__link {
+  color: #fff;
+}
+
+.header--white .logo {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+
 .menu ul {
   padding: 0;
   margin: 0;
@@ -206,5 +216,8 @@
     -webkit-transform: rotate(-180deg);
         -ms-transform: rotate(-180deg);
             transform: rotate(-180deg);
+  }
+  .header--white .menu-row {
+    background: #fff;
   }
 }
